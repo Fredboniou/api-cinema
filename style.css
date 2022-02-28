@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background: #000;
+}
+
+form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#message, h2 {
+    color: #949494;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 12px 5px 10px #10126d;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #10126d;
+    color: #949494;
+}
+
+.pic {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    width: 200px;
+}
+
+.description {
+    height: 150px;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; */
+    overflow-y: scroll;
+    text-align: justify;
+}
+
+/* .description::-webkit-scrollbar {
+     width: 5px;
+     height: 5px;
+ } */
+ /* .description::-webkit-scrollbar-button {
+     width: 0px;
+     height: 0px;
+ } */
+ /* .description::-webkit-scrollbar-thumb {
+     background: #e1e1e1;
+     border: 31px none #ffffff;
+     border-radius: 5px;
+ } */
+ /*.description::-webkit-scrollbar-thumb:hover {
+     background: #a1a1a1;
+ }*/
+/* .description::-webkit-scrollbar-thumb:active {
+     background: #a3a3a3;
+ }*/
+ /*.description::-webkit-scrollbar-track {
+     background: #f0f0f0;
+     border: 1px solid #ffffff;
+     border-radius: 5px;
+ }*/
+ /*.description::-webkit-scrollbar-track:hover {
+     background: #f2f2f2;
+ }*/
+ /*.description::-webkit-scrollbar-track:active {
+     background: #f5f5f5;
+ }*/
+ /*.description::-webkit-scrollbar-corner {
+     background: transparent;
+ } */
+
+ .description::-webkit-scrollbar {
+    width: 5px; /* width of the entire scrollbar */
+  }
+  
+  .description::-webkit-scrollbar-track {
+      display: none;
+    /*background: orange; /* color of the tracking area */
+  }
+  
+  .description::-webkit-scrollbar-thumb {
+    background-color: black; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    /*border: 3px solid orange; /* creates padding around scroll thumb */
+  }
